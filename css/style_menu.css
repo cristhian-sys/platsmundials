@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-/* Estilo general */
+/* Estilo body */
 body {
     font-family: Arial, sans-serif;
-    background: #f8f8f8;
+    background: #4A8BDF;
     color: #333 ;
 }
 
@@ -17,7 +17,7 @@ header {
     background: #333;
     color: white;
     padding: 15px 0;
-    text-align: center;
+    text-align: center; 
 }
 
 header h1 {

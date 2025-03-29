@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style_contact.css">
+</head>
+<body>
+
+<header>
+    <h1>Contáctanos</h1>
+</header>
+
+<div class="container">
+    <div class="contact-info">
+        <div>
+            <h3>📍 Dirección</h3>
+            <p>123 Calle Ejemplo, Ciudad, País</p>
+        </div>
+        <div>
+            <h3>📞 Teléfono</h3>
+            <p>+123 456 789</p>
+        </div>
+        <div>
+            <h3>📧 Email</h3>
+            <p>contacto@ejemplo.com</p>
+        </div>
+    </div>
+
+    <h2>💬 Envíanos un mensaje</h2>
+    <form action="enviar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+</div>
+
+</body>
+</html>
