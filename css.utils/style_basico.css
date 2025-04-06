@@ -50,25 +50,3 @@ nav ul li a:hover {
     color: black;
     border-radius: 5px;
 }
-
-/* CUERPO PRINCIPAL */
-main {
-    text-align: center;
-    padding: 20px;
-}
-
-main img {
-    margin-top: 10px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-/* PIE DE PÁGINA */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-}
